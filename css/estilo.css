@@ -361,3 +361,97 @@ h2{
     height: 40px;
 }
 
+@media(max-width:600px){
+    *{
+        padding: 0px;
+        margin:0px;
+    }
+    
+    header{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        flex-direction: column;
+    }
+    .contenedor{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .subcontainer1{
+        width: 100%;
+    }
+    .subcontainer2{
+        width: 100%;
+    }
+    .subcontainer3{
+        width: 100%;
+    }
+    .subcontainer4{
+        width: 100%;
+    }
+    .contenedor2{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height:1000px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contenedor3{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 1000px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .fresh-taste{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 1000px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contenedor4{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 1300px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .services{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 1300px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contenedor5{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer{
+        text-align: center;
+        align-items: left;
+        justify-content: center;
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .home{
+        padding: 0px;
+        margin:0px;
+    }
+}
